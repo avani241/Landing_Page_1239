@@ -1,0 +1,240 @@
+/* NAVBAR */
+.navbar {
+  background: #81adf3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  align-items: center;
+}
+
+.nav-left span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-right input {
+  padding: 6px;
+  border: none;
+}
+
+.nav-right button {
+  background: white;
+  color: #fd820f;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 40px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  padding: 15px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.read-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* CLIENTS */
+.light-bg {
+  background: #f8f8f8;
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 25px;
+}
+
+.client-card {
+  background: white;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.client-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.client-card span {
+  color: gray;
+  font-size: 14px;
+}
+
+/* CONTACT & NEWSLETTER */
+.form input,
+.newsletter input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 280px;
+}
+/* CENTER NEWSLETTER SUBSCRIBE BUTTON */
+.newsletter button {
+  display: block;
+  margin: 15px auto 0;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 50px;
+  background-image: url("https://www.shutterstock.com/image-photo/using-tablet-pc-consultant-between-600nw-2260960137.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.hero-btn {
+  background: #ff7a00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hero-form {
+  background: white;
+  padding: 25px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.hero-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+/* WHY CHOOSE */
+.why {
+  padding: 60px 40px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.why-card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+/* ABOUT */
+.about {
+  background: #f9f9f9;
+  padding: 60px 40px;
+}
+
+.about-content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-family :Arial, Helvetica, sans-serif;
+  font-size-adjust: calc();
+}
+
+.about-content img {
+  width: 500px;
+  border-radius: 6px;
+}
+/* FOOTER */
+.footer {
+  background: #7892da;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer-btn {
+  background: #ff7a00;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.footer-links span {
+  cursor: pointer;
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.8;
+}
+/* CENTER CONTACT SUBMIT BUTTON */
+.form button {
+  display: block;
+  margin: 20px auto 0;
+}

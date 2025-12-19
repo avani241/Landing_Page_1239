@@ -1,0 +1,41 @@
+/* RESET + GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8fcfd;
+  color : #1b3b35;
+}
+
+/* GLOBAL LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BUTTON DEFAULT */
+button {
+  font-family: inherit;
+  border-radius: 4px;
+}
+
+/* INPUT DEFAULT */
+input,
+textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+/* PAGE WRAPPER (SAFE IF NEEDED LATER) */
+.page-container {
+  min-height: 100vh;
+}
+
+/* ADMIN PAGE FIX */
+.admin-container {
+  background-color: #fafafa;
+}
